@@ -4,10 +4,10 @@ from tweepy.streaming import StreamListener
 import json,HTMLParser,re
 from unicodedata import normalize
 
-ckey="jR31mwNo1gyIqkkjCYYhkXXIz"
-csecret="wwiU4NKfnqKqWBhf8hlUlJPAb8n7CPUkQ3wHCp12EcFFCBNfaV"
-atoken="1032773208-L19MOl6LXySiLVfqgC4dYChisTmIJRhEopEHxFG"
-asecret="j1ckA7gD65EMiy32eDYtzrVlkJAg204RiFukCoxsm8f13"
+ckey=""
+csecret=""
+atoken=""
+asecret=""
 
 class listener(StreamListener):
     def __init__(self, api=None):
